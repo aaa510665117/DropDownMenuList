@@ -5,9 +5,9 @@ dropList 选择控件
   
 use:    
 DropDownMenuList * upDropMenu = [[DropDownMenuList alloc] init];  
-NSMutableArray * titleAry = [[NSMutableArray alloc]init];  
+NSMutableArray * titleAry;  
 CGRect btnFrame = [self.view convertRect:_upChoseView.frame toView:self.view];  
-upDropMenu.isCanMatchStr = YES/NO;  
+//upDropMenu.isCanMatchStr = YES/NO;  
 [upDropMenu showDropDownMenu:btnFrame arrayOfTitle:titleAry];  
 pDropMenu.clickIndex = ^(long cindex) {  
      vc.upChoseText.text = [titleAry objectAtIndex:cindex];  
