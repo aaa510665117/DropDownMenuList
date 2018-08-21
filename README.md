@@ -9,7 +9,7 @@ NSMutableArray * titleAry;
 CGRect btnFrame = [self.view convertRect:_upChoseView.frame toView:self.view];  
 //upDropMenu.isCanMatchStr = YES/NO;  
 [upDropMenu showDropDownMenu:btnFrame arrayOfTitle:titleAry];  
-pDropMenu.clickIndex = ^(long cindex) {  
+upDropMenu.clickIndex = ^(long cindex) {  
      vc.upChoseText.text = [titleAry objectAtIndex:cindex];  
 };  
 [self.view addSubview:upDropMenu];    
