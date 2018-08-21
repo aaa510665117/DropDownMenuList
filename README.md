@@ -1,7 +1,7 @@
 # DropDownMenuList
 
 dropList 选择控件   
-自适应位置、支持搜索  
+自适应弹出方向、支持搜索  
   
 use:    
 DropDownMenuList * upDropMenu = [[DropDownMenuList alloc] init];  
